@@ -135,7 +135,7 @@ cp .env .env
 - `GEMINI_API_KEY` — from [aistudio.google.com]( https://aistudio.google.com/apikey)
 ##### * optional *
 - `OPENAI_API_KEY` — from [platform.openai.com](https://platform.openai.com)
-- `SERPER_API_KEY` — from [serper.dev](https://serper.dev) (free tier available)
+- `SERPER_API_KEY` — from [serper.dev](https://serper.dev)
 
 ### 5. Add a sample financial document
 
