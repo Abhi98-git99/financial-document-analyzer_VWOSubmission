@@ -131,9 +131,9 @@ cp .env .env
 # Edit .env and add your API keys:
 ```
 
-Required keys:
+#### Required keys:
 - `GEMINI_API_KEY` — from [aistudio.google.com]( https://aistudio.google.com/apikey)
-* optional *
+##### * optional *
 - `OPENAI_API_KEY` — from [platform.openai.com](https://platform.openai.com)
 - `SERPER_API_KEY` — from [serper.dev](https://serper.dev) (free tier available)
 
