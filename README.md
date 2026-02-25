@@ -76,28 +76,30 @@ An AI-powered financial document analysis system that processes corporate report
                │                   (Redis)
                │                        │
                └──────────┬─────────────┘
-                           │
+                          │
                     CrewAI Crew
-                    ┌──────┴──────┐
-               Sequential Process
-                    │
-          ┌─────────▼──────────┐
-          │  1. Verifier Agent │  ← Validates document type
-          └─────────┬──────────┘
-          ┌─────────▼──────────┐
-          │  2. Financial      │  ← Extracts metrics & trends
-          │     Analyst Agent  │
-          └─────────┬──────────┘
-          ┌─────────▼──────────┐
-          │  3. Investment     │  ← Bull/bear case analysis
-          │     Advisor Agent  │
-          └─────────┬──────────┘
-          ┌─────────▼──────────┐
-          │  4. Risk Assessor  │  ← Risk matrix & assessment
-          └─────────┬──────────┘
-                    │
-             SQLite / PostgreSQL
-             (AnalysisJob table)
+                          │
+                ┌─────────▼──────────┐
+                │  1. Verifier Agent │  ← Validates document type
+                └─────────┬──────────┘
+                ┌─────────▼──────────┐
+                │  2. Financial      │  ← Extracts metrics & trends
+                │     Analyst Agent  │
+                └─────────┬──────────┘
+                ┌─────────▼──────────┐
+                │  3. Investment     │  ← Bull/bear case analysis
+                │     Advisor Agent  │
+                └─────────┬──────────┘
+                ┌─────────▼──────────┐
+                │  4. Risk Assessor  │  ← Risk matrix & assessment
+                └─────────┬──────────┘
+                          │
+                   SQLite / PostgreSQL
+                   (AnalysisJob table)
+```
+
+```
+
 ```
 
 ---
