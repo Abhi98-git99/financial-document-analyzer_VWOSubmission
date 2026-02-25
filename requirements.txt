@@ -1,0 +1,78 @@
+# # Core AI framework
+# # Keep crewai at version 0.130.0 per project requirement
+# crewai==0.130.0
+# crewai-tools==0.47.1
+
+# # Web framework
+# fastapi==0.110.3
+# uvicorn[standard]==0.29.0
+# python-multipart==0.0.9
+
+# # Database (Bonus)
+# sqlalchemy==2.0.30
+# # psycopg2-binary==2.9.9  # Uncomment for PostgreSQL
+
+# # Queue / async workers (Bonus)
+# celery==5.4.0
+# redis==5.0.4
+
+# # PDF reading
+# langchain-community>=0.3.1
+# pypdf>=5.0.0
+
+# # LLM / AI
+# openai==1.68.2
+# langchain-core>=0.3.1
+
+# # Environment / config
+# python-dotenv==1.0.1
+
+# # Google AI (optional)
+# google-generativeai
+# google-ai-generativelanguage
+
+# # Utilities
+# pydantic==2.7.4
+# numpy==1.26.4
+# pandas==2.2.2
+
+#=---------------------------
+
+# Core AI framework
+# Keep crewai at version 0.130.0 per project requirement
+crewai
+crewai-tools
+
+# Web framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Database (Bonus)
+sqlalchemy
+# psycopg2-binary  # Uncomment for PostgreSQL
+
+# Queue / async workers (Bonus)
+celery
+redis
+
+# PDF reading
+langchain-community
+pypdf
+
+# LLM / AI
+openai
+langchain-core
+
+# Environment / config
+python-dotenv
+
+# Google AI (optional)
+google-generativeai
+google-ai-generativelanguage
+"crewai[google-genai]"
+
+# Utilities
+pydantic
+numpy
+pandas
